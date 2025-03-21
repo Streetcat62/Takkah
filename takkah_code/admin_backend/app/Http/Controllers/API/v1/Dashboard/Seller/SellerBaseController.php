@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Http\Controllers\API\v1\Dashboard\Seller;
+
+use App\Http\Controllers\Controller;
+use App\Traits\ApiResponse;
+use App\Traits\Loggable;
+
+abstract class SellerBaseController extends Controller
+{
+    use ApiResponse, Loggable;
+    protected $shop;
+
+    public function __construct()
+    {
+        if (isset(auth('sanctum')->user()->shop)) {
+            $this->shop = auth('sanctum')->user()->shop;
+        } elseif (isset(auth('sanctum')->user()->moderatorShop) && ((auth('sanctum')->user())->role == 'moderator' || (auth('sanctum')->user())->role == 'deliveryman')) {
+            $this->shop = auth('sanctum')->user()->moderatorShop;
+        } else {
+            $this->shop = false;
+        }
+    }
+
+}
