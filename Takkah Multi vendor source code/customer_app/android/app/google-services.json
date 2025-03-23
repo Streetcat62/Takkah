@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "106432296111",
+    "project_id": "sundaymart-208c9",
+    "storage_bucket": "sundaymart-208c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106432296111:android:0085f478010904e0d8505a",
+        "android_client_info": {
+          "package_name": "net.sundaymart.deliveryman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106432296111-4cqe27c2c8fiens42u9arfdg6705k758.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sundaymart.deliveryman",
+            "certificate_hash": "c87043576fe68e00f1cc3618cb6c73a28f687139"
+          }
+        },
+        {
+          "client_id": "106432296111-b812989vle0cspfsg5dsa54meh4i4i5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sundaymart.deliveryman",
+            "certificate_hash": "3fd1e3274c4e9d19f0ec40b401bc730a8a56ea34"
+          }
+        },
+        {
+          "client_id": "106432296111-1tggbmnh7u6t8ti7btfinpdk5d045grs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqQZdleX2_-uIiRzqbbO05JO_yjXjKbMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106432296111-1tggbmnh7u6t8ti7btfinpdk5d045grs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106432296111-f5ebqqj9up661g9vfnep76umcmcadua5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.test1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106432296111:android:0de510dfe578c45ad8505a",
+        "android_client_info": {
+          "package_name": "net.sundaymart.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106432296111-eehbgosgv61kg8410m7v7n3ich25huh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sundaymart.user",
+            "certificate_hash": "a1f49ee6a310fae9c7d3deb5731a6ee6ff826efa"
+          }
+        },
+        {
+          "client_id": "106432296111-o6g5f282gjopqko1sl8oa4c9gg177dnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.sundaymart.user",
+            "certificate_hash": "3fd1e3274c4e9d19f0ec40b401bc730a8a56ea34"
+          }
+        },
+        {
+          "client_id": "106432296111-1tggbmnh7u6t8ti7btfinpdk5d045grs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqQZdleX2_-uIiRzqbbO05JO_yjXjKbMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106432296111-1tggbmnh7u6t8ti7btfinpdk5d045grs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "106432296111-f5ebqqj9up661g9vfnep76umcmcadua5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "net.test1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

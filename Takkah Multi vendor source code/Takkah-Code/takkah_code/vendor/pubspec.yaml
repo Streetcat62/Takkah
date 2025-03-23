@@ -1,0 +1,75 @@
+name: venderfoodyman
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+9
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.6
+  intl: ^0.17.0
+  lottie: ^2.2.0
+  get_it: ^7.2.0
+  shimmer: ^2.0.0
+  location: ^4.4.0
+  auto_route: ^5.0.4
+  flutter_svg: ^2.0.1
+  google_fonts: ^4.0.3
+  sms_autofill: ^2.2.0
+  flutter_remix: ^0.0.3
+  osm_nominatim: ^2.0.1
+  firebase_core: ^2.6.0
+  firebase_auth: ^4.2.7
+  image_picker: ^0.8.6+1
+  google_sign_in: ^5.4.4
+  pull_to_refresh: ^2.0.0
+  flutter_riverpod: ^2.2.0
+  flutter_slidable: ^2.0.0
+  connectivity_plus: ^3.0.3
+  freezed_annotation: ^2.2.0
+  flutter_screenutil: ^5.8.4
+  charts_flutter_new: ^0.12.0
+  shared_preferences: ^2.0.17
+  firebase_messaging: ^14.2.3
+  google_maps_flutter: ^2.2.6
+  proste_indexed_stack: ^0.2.4
+  cached_network_image: ^3.2.3
+  calendar_date_picker2: ^0.3.7
+  top_snackbar_flutter: ^3.0.0+1
+  flutter_native_splash: ^2.2.16
+  flutter_advanced_switch: ^3.0.1
+  flutter_time_picker_spinner: ^2.0.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_vibrate: ^1.3.0
+  geolocator: ^9.0.2
+  readmore: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.1
+  auto_route_generator: ^5.0.3
+  flutter_launcher_icons: ^0.11.0
+
+flutter_native_splash:
+  background_image: 'assets/image/splash.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/image/
+    - assets/lottie/
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: 'assets/image/app_logo.png'

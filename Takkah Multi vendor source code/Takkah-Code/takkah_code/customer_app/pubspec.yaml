@@ -1,0 +1,77 @@
+name: sundaymart
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+14
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.1.1
+  intl: ^0.17.0
+  flash: ^2.0.5
+  lottie: ^2.3.2
+  get_it: ^7.2.0
+  shimmer: ^2.0.0
+  location: ^4.4.0
+  auto_route: ^5.0.4
+  share_plus: ^6.3.0
+  flutter_svg: ^1.1.6
+  image_picker: ^0.8.7+1
+  sms_autofill: ^2.3.0
+  google_fonts: ^4.0.4
+  flutter_vibrate: ^1.3.0
+  url_launcher: ^6.1.7
+  flutter_remix: ^0.0.3
+  osm_nominatim: ^2.0.1
+  firebase_core: ^2.9.0
+  firebase_auth: ^4.4.0
+  google_sign_in: ^6.1.0
+  cloud_firestore: ^4.5.0
+  flutter_riverpod: ^2.3.3
+  connectivity_plus: ^3.0.3
+  freezed_annotation: ^2.2.0
+  flutter_rating_bar: ^4.0.1
+  sign_in_with_apple: ^4.3.0
+  flutter_screenutil: ^5.8.4
+  shared_preferences: ^2.1.0
+  firebase_messaging: ^14.4.0
+  google_maps_flutter: ^2.2.5
+  cached_network_image: ^3.2.3
+  flutter_native_splash: ^2.2.16
+  flutter_login_facebook: ^1.7.0
+  flutter_calendar_carousel: ^2.4.1
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.1
+  auto_route_generator: ^5.0.3
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/
+    - assets/images/all/
+    - assets/images/dark_mode/
+    - assets/images/light_mode/
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: 'assets/images/all/app_logo.png'
+
+
+flutter_native_splash:
+  android_12:
+  fullscreen: true
+  background_image: 'assets/images/all/sundaymart_splash.png'
